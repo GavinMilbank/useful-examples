@@ -29,7 +29,6 @@ public class Automovel
              return km/30 + km/24;
         }  
         else 
-            //return 0; // HERE, I don't know what should I return in this case
-            System.out.println("Combustível inválido");
+            return 0; // HERE, I don't know what should I return in this case
     }
 }
